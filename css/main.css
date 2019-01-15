@@ -38,8 +38,12 @@ a {
   text-decoration: none;
   color: #fff;
   background-color: #555;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
+}
+
+a:hover {
+  background-color: #e2e2e2;
 }
 
 h1 {
@@ -69,7 +73,6 @@ p {
   margin: 0;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   .section-body {
@@ -92,6 +95,7 @@ p {
   .content {
     margin: 1.5em;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -107,9 +111,9 @@ p {
   }
 
   .img-flex {
-    display: block;
+    display: inline-block;
     vertical-align: middle;
-    width: 50%
+    width: 50%;
   }
 
 }

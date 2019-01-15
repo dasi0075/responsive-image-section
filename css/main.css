@@ -88,6 +88,7 @@ p {
   }
 
   .img-flex {
+    display: block;
     margin: 0;
   }
 
@@ -102,9 +103,14 @@ p {
   line-height: 1.4;
   }
 
-  .section-body {
-    flex-direction: row;
+  .content {
+    display: block;
     width: 45%;
+  }
+
+  .img-flex {
+    display: block;
+    width: 45%
   }
 
 }
@@ -115,21 +121,11 @@ p {
   line-height: 1.5;
   }
 
-  .section-body {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-
 }
 
 @media only screen and (min-width: 90em) {
   html {
   font-size: 130%;
   }
-
-  .section-body {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
 
 }

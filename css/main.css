@@ -32,6 +32,10 @@ img {
   margin-top: 2rem;
 }
 
+.img-flex {
+  display: inline-block;
+}
+
 a {
   list-style-type: none;
   text-decoration: none;
@@ -39,6 +43,10 @@ a {
   background-color: #555;
   padding: 0.5em 0.75em;
   border-radius: 4px;
+}
+
+.content {
+  display: block;
 }
 
 .cocoa {
@@ -60,13 +68,20 @@ section {
 
 
 @media only screen and (min-width: 25em) {
-
+  .section-body {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (min-width: 38em) {
   html {
   font-size: 110%;
   line-height: 1.4;
+  }
+
+  .section-body {
+    width: 50%;
   }
 
 }
@@ -77,11 +92,21 @@ section {
   line-height: 1.5;
   }
 
+  .section-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
 }
 
 @media only screen and (min-width: 90em) {
   html {
   font-size: 130%;
   }
+
+  .section-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
 
 }

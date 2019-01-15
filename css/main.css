@@ -102,13 +102,14 @@ p {
   }
 
   .content {
-    display: block;
-    width: 45%;
+    display: inline-block;
+    width: 40%;
   }
 
   .img-flex {
     display: block;
-    width: 45%
+    vertical-align: middle;
+    width: 50%
   }
 
 }

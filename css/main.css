@@ -29,11 +29,7 @@ font-size: 1rem;
 img {
   max-width: 100%;
   width: auto;
-  margin-top: 2rem;
-}
-
-.img-flex {
-  display: inline-block;
+  margin-top: 1rem;
 }
 
 a {
@@ -61,16 +57,42 @@ p {
   margin-top: 1.5rem;
 }
 
-section {
+.section {
   margin: 1.5rem;
 }
 
+.section-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.content {
+  margin: 1em;
+}
 
 
 @media only screen and (min-width: 25em) {
   .section-body {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+  }
+
+  html {
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .img-flex {
+    margin: 0;
+  }
+
+  .content {
+    margin: 1.5em;
   }
 }
 
@@ -81,7 +103,8 @@ section {
   }
 
   .section-body {
-    width: 50%;
+    flex-direction: row;
+    width: 45%;
   }
 
 }

@@ -163,7 +163,7 @@ p {
     display: inline-block;
     vertical-align: middle;
     margin: 0;
-    width: 60%;
+    width: 55%;
   }
 
 }
@@ -172,6 +172,20 @@ p {
 
   html {
     font-size: 130%;
+  }
+
+  .content {
+    text-align: left;
+    vertical-align: middle;
+    margin: 2rem;
+    width: 35%;
+  }
+
+  .img-flex {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: 45%;
   }
 
 }

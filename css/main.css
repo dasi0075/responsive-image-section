@@ -117,22 +117,23 @@ p {
 
   .content {
     display: inline-block;
-    width: 40%;
+    width: 42%;
     vertical-align: middle;
     margin-right: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1.6rem;
   }
 
   .img-flex {
     display: inline-block;
-    width: 51%;
+    width: 50%;
     margin: 0;
+    margin-top: .8rem;
     vertical-align: middle;
   }
 
   .section-body {
     margin-top: .5rem;
-    margin-left: 1rem;
+    margin-left: .4rem;
     margin-right: 0;
   }
 

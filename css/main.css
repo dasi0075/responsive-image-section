@@ -120,6 +120,7 @@ p {
     width: 40%;
     vertical-align: middle;
     margin-right: 1rem;
+    margin-top: 1.5rem;
   }
 
   .img-flex {
@@ -130,7 +131,7 @@ p {
   }
 
   .section-body {
-    margin-top: 1rem;
+    margin-top: .5rem;
     margin-left: .5rem;
     margin-right: 0;
   }

@@ -117,12 +117,15 @@ p {
 
   .content {
     display: inline-block;
-    width: 40%;
+    width: 25%;
+    vertical-align: middle;
   }
 
   .img-flex {
     display: inline-block;
-    width: 50%;
+    width: 60%;
+    margin: 0;
+    vertical-align: middle;
   }
 
 }

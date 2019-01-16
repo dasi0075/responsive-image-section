@@ -33,6 +33,12 @@ img {
   margin-top: .5rem;
 }
 
+.img-flex {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
 a {
   list-style-type: none;
   text-decoration: none;
@@ -130,6 +136,12 @@ p {
   .content {
     text-align: left;
     vertical-align: middle;
+  }
+
+  .img-flex {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
   }
 
 }

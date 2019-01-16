@@ -101,7 +101,9 @@ p {
   }
 
   .content {
-    margin: 1.5em;
+    display: block;
+    margin: .7em;
+    margin-top: .8em;
   }
 
 }
@@ -144,6 +146,7 @@ p {
   .img-flex {
     display: inline-block;
     vertical-align: middle;
+    margin: 0;
     width: 40%;
   }
 

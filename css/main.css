@@ -123,14 +123,14 @@ p {
 
   .img-flex {
     display: inline-block;
-    width: 50%;
+    width: 55%;
     margin: 0;
     vertical-align: middle;
   }
 
   .section-body {
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: .5rem;
     margin-right: 0;
   }
 

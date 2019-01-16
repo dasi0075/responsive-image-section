@@ -130,6 +130,7 @@ p {
 
   .section-body {
     margin-top: 1.5rem;
+    margin-left: .5rem;
   }
 
 }
@@ -143,11 +144,13 @@ p {
 
   .section-body {
     text-align: center;
+    margin-left: 0;
   }
 
   .content {
     text-align: left;
     vertical-align: middle;
+    margin-left: 0;
   }
 
   .img-flex {

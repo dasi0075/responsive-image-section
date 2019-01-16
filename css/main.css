@@ -119,11 +119,12 @@ p {
     display: inline-block;
     width: 40%;
     vertical-align: middle;
+    margin-right: 1rem;
   }
 
   .img-flex {
     display: inline-block;
-    width: 55%;
+    width: 52%;
     margin: 0;
     vertical-align: middle;
   }
@@ -135,7 +136,7 @@ p {
   }
 
   h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
   }
 
 }

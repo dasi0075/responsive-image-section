@@ -130,7 +130,8 @@ p {
 
   .section-body {
     margin-top: 1rem;
-    margin-left: .5rem;
+    margin-left: 1rem;
+    margin-right: 0;
   }
 
   h1 {
@@ -155,14 +156,14 @@ p {
     text-align: left;
     vertical-align: middle;
     margin: .5rem;
-    width: 45%;
+    width: 35%;
   }
 
   .img-flex {
     display: inline-block;
     vertical-align: middle;
     margin: 0;
-    width: 40%;
+    width: 60%;
   }
 
 }

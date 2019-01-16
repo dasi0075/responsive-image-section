@@ -178,14 +178,15 @@ p {
     text-align: left;
     vertical-align: middle;
     margin: 2rem;
-    width: 35%;
+    margin-left: 4rem;
+    width: 50%;
   }
 
   .img-flex {
     display: inline-block;
     vertical-align: middle;
     margin: 0;
-    width: 45%;
+    width: 40%;
   }
 
 }

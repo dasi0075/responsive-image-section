@@ -141,6 +141,10 @@ p {
     margin-bottom: 1.2rem;
   }
 
+  a {
+    padding: .7em .95em;
+  }
+
   .btn {
     margin-top: 1.8rem;
   }

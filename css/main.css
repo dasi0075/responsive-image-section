@@ -117,7 +117,7 @@ p {
 
   .content {
     display: inline-block;
-    width: 45%;
+    width: 40%;
     vertical-align: middle;
   }
 
@@ -162,7 +162,7 @@ p {
     display: inline-block;
     vertical-align: middle;
     margin: 0;
-    width: 50%;
+    width: 40%;
   }
 
 }
